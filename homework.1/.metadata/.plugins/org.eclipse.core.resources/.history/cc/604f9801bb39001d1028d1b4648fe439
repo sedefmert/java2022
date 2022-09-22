@@ -1,0 +1,28 @@
+package prime_number;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		
+		int number = 9 ;
+		int i=2;
+		int remainder = number % i;
+		boolean isPrime = true;
+		
+		
+		for(i=2;i<number;i++) {
+			if(number % i == 0) {
+				isPrime = false;
+			}
+		}
+		
+		if(isPrime) {
+			System.out.println("asal sayıdır");
+		}else {
+			System.out.println("asal sayı  değildir..");
+		}
+	
+	}
+
+}

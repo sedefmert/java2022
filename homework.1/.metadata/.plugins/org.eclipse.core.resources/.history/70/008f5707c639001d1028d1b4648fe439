@@ -1,0 +1,16 @@
+package vowels;
+
+public class Main {
+
+	public static void main(String[] args) {
+		char harf = 'a';
+		
+		if(harf=='a') {
+			System.out.println("kalın sesli bir harftir");
+		}
+		if(harf=='e') {
+			System.out.println("ince sesli bir harftir.");
+		}
+	}
+
+}

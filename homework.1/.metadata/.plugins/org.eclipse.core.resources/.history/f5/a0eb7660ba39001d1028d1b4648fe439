@@ -1,0 +1,26 @@
+package prime_number;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		
+		int number = 25;
+		int i=2;
+		int  remainder = number % i;
+		
+		
+		for(i=2;i<number;i++) {
+			if(remainder % i ==0 ) {
+				System.out.println("asal sayı değildir.");
+			}else {
+				
+			}System.out.println("asal sayıdır.");
+		}
+		
+		
+	
+	}
+
+}
+

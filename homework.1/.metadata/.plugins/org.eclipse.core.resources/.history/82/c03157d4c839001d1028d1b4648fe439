@@ -1,0 +1,27 @@
+package perfect_number;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// 6 --> 1,2,3
+		// 28 --> 1,2,4,7,14  gibi sayılar mükemmel sayılardır.
+		
+		int number = 6;
+		int i;
+		int total = 0;
+		
+		for( i = 0;i<number;i++) {
+			if(number % i == 0) {
+				total = total +i;
+			}
+		}
+		
+		if(total==number) {
+			System.out.println("bu sayı mükemmel sayıdır.");
+		}else {
+			System.out.println("bu sayı mükemmel sayı değildir.");
+		}
+		
+	}
+
+}
