@@ -1,0 +1,22 @@
+package classesWithAttributes;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// attribute = özellik
+		//field = alan
+		
+		Product product = new Product();
+		product.name = "laptop";
+		product.id = 1;
+		product.description = "Asus Laptop";
+		product.price = 5000;
+		product.stockAmount = 3;
+		
+		ProductManager productManager = new ProductManager();
+		productManager.Add(product);
+		
+		
+	}
+
+}

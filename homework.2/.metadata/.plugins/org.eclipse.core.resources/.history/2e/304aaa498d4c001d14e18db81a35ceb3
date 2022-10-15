@@ -1,0 +1,21 @@
+package methods2;
+
+public class Main {
+
+	public static void main(String[] args) { 
+		String mesaj="bugün hava çok güzel.";
+		String yeniMesaj= mesaj.substring(0,2);
+	}
+	
+	public static void ekle() {    					//methotlar kendimizi tekrar etmemek için kullanılır.
+		System.out.println("eklendi."); 			//Belli bir iş verilip nu işi farklı yerlerde çağırabiliriz.
+	}
+	
+	public static void sil() { 
+		System.out.println("silindi."); 
+	}
+	
+	public static void guncelle() {
+		System.out.println("güncellendi."); 
+	}
+}
